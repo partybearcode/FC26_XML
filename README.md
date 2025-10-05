@@ -35,7 +35,7 @@ for notes on deploying the project on a live system.
 
 ## Built With
 
-  - [Visual Studio Code](https://code.visualstudio.com/) - Used for XML, DTD and 
+  - [Visual Studio Code](https://code.visualstudio.com/) - Used for XML, DTD and README.md
 
 
 
