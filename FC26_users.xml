@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE game SYSTEM "FC26_users.dtd">
+<game name="FC26" version="1.0" dateExport="20251001">
+    <user id="1" username="defaultbear" platform="XboxSeriesS" region="EU/ES">
+        <team name="Di FC" rating="81">
+            <coins>100000</coins>
+            <fifaPoints>4000</fifaPoints>
+            <lineup>4-2-3-1</lineup>
+            <chemistry>15</chemistry>
+        </team>
+        <stats>
+            <gamesPlayed>112</gamesPlayed>
+            <wins>78</wins>
+            <draws>29</draws>
+            <losses>10</losses>
+            <goals>298</goals>
+            <assists>109</assists>
+            <cleanSheets>36</cleanSheets>
+        </stats>
+        <competitions>
+            <divisionRivals division="5" ranking="192"/>
+            <weekendLeague status="qualified"/>
+            <seasons rank="Gold 1"/>
+            <fcPro qualified="true" qualDate="20250915"/>
+        </competitions>
+        <profile>
+            <accountLevel>78</accountLevel>
+            <playStyle>Counter-attack</playStyle>
+            <lastConnection>20251001</lastConnection>
+            <banned>false</banned>
+        </profile>
+    </user>
+    <user id="2" username="fifapronocheats" platform="PC" region="EU/GE">
+        <team name="Trampas FC" rating="99">
+            <coins>100000</coins>
+            <fifaPoints>4000</fifaPoints>
+            <lineup>4-2-3-1</lineup>
+            <chemistry>15</chemistry>
+        </team>
+        <stats>
+            <gamesPlayed>112</gamesPlayed>
+            <wins>112</wins>
+            <draws>0</draws>
+            <losses>0</losses>
+            <goals>1000000</goals>
+            <assists>10000</assists>
+            <cleanSheets>112</cleanSheets>
+        </stats>
+        <competitions>
+            <divisionRivals division="1" ranking="1"/>
+            <weekendLeague status="qualified"/>
+            <seasons rank="Platinum 1"/>
+            <fcPro qualified="true" qualDate="20250915"/>
+        </competitions>
+        <profile>
+            <accountLevel>100</accountLevel>
+            <playStyle>Counter-attack</playStyle>
+            <lastConnection>20251001</lastConnection>
+            <banned reason="Using cheats / Disconnecting opponents after modifying the result to 47-0">true</banned>
+        </profile>
+    </user>
+</game>

@@ -1,0 +1,41 @@
+<!ELEMENT game (user*)>
+<!ATTLIST game name CDATA #REQUIRED
+                version CDATA #REQUIRED
+                dateExport CDATA #REQUIRED>
+<!ELEMENT user (team, stats, competitions, profile)>
+<!ATTLIST user id CDATA #REQUIRED 
+            username CDATA #REQUIRED
+            platform CDATA #REQUIRED
+            region CDATA #REQUIRED>
+<!ELEMENT team (coins, fifaPoints, lineup, chemistry)>
+<!ATTLIST team name CDATA #REQUIRED 
+            rating CDATA #REQUIRED>
+<!ELEMENT coins (#PCDATA)>
+<!ELEMENT fifaPoints (#PCDATA)>
+<!ELEMENT lineup (#PCDATA)>
+<!ELEMENT chemistry (#PCDATA)>
+<!ELEMENT stats (gamesPlayed, wins, draws, losses, goals, assists, cleanSheets)>
+<!ELEMENT gamesPlayed (#PCDATA)>
+<!ELEMENT wins (#PCDATA)>
+<!ELEMENT draws (#PCDATA)>
+<!ELEMENT losses (#PCDATA)>
+<!ELEMENT goals (#PCDATA)>
+<!ELEMENT assists (#PCDATA)>
+<!ELEMENT cleanSheets (#PCDATA)>
+<!ELEMENT competitions (divisionRivals, weekendLeague, seasons, fcPro)>
+<!ELEMENT divisionRivals (#PCDATA)>
+<!ATTLIST divisionRivals division CDATA #REQUIRED 
+                         ranking CDATA #REQUIRED>
+<!ELEMENT weekendLeague (#PCDATA)>
+<!ATTLIST weekendLeague status CDATA #REQUIRED>
+<!ELEMENT seasons (#PCDATA)>
+<!ATTLIST seasons rank CDATA #REQUIRED>
+<!ELEMENT fcPro (#PCDATA)>
+<!ATTLIST fcPro qualified CDATA #REQUIRED 
+                qualDate CDATA #IMPLIED>
+<!ELEMENT profile (accountLevel, playStyle, lastConnection, banned)>
+<!ELEMENT accountLevel (#PCDATA)>
+<!ELEMENT playStyle (#PCDATA)>
+<!ELEMENT lastConnection (#PCDATA)>
+<!ELEMENT banned (#PCDATA)>
+<!ATTLIST banned reason CDATA #IMPLIED>
